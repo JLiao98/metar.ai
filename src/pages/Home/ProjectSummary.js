@@ -98,6 +98,9 @@ const ProjectSummary = ({
 
   const renderPreview = status => (
     <div className="project-summary__preview">
+      {model.type === 'videp' && (
+        <video src={require('assets/video/preview-video.mp4').default} controls autoPlay width={'98%'}></video>
+      )}
       {model.type === 'laptop' && (
         <Fragment>
           <KatakanaProject
