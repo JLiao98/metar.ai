@@ -164,7 +164,7 @@ const Home = () => {
         buttonText="View Details"
         // buttonLink="/projects/smart-sparrow"
         model={{
-          type: 'laptop',
+          type: 'videp',
           alt: 'Smart Sparrow lesson builder',
           textures: [
             {
